@@ -1,0 +1,131 @@
+/* Estilos para el header */
+header {
+    background-color: #6ab04c;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Tamaño más pequeño */
+    height: auto;
+    border-radius: 50%; /* Hacer la imagen circular */
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem; /* Aumentar el tamaño del texto */
+    margin-bottom: 10px; /* Agregar espacio debajo del encabezado h1 */
+}
+
+header h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem; /* Aumentar el tamaño del texto */
+    margin-bottom: 20px; /* Agregar más espacio debajo del encabezado h2 */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Agregar espacio sobre el menú */
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; /* Aumentar el espacio alrededor del texto */
+    border-radius: 4px; /* Hacer los enlaces con bordes redondeados */
+    background-color: #8dc63f; /* Cambiar el color de fondo */
+    transition: background-color 0.3s ease; /* Agregar una transición suave al cambiar el color de fondo */
+    font-size: 1.2rem; /* Aumentar el tamaño del texto del menú */
+}
+
+.menu li a:hover {
+    background-color: #96d54e; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+
+/* Estilos para el main */
+main {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+.main-text h2 {
+    font-size: 2rem; /* Ajustar el tamaño del título */
+    margin-bottom: 1rem;
+}
+
+.main-text p {
+    font-size: 1.2rem; /* Ajustar el tamaño del texto */
+    color: #666;
+}
+
+.main-image {
+    max-width: 40%; /* Ajustar el tamaño de la imagen */
+    border-radius: 8px; /* Agregar bordes redondeados a la imagen */
+}
+
+/* Estilos para la tienda */
+.tienda h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.card-text {
+    font-family: 'Arial', sans-serif;
+    color: #666;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #6ab04c;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container img {
+    width: 80px; /* Tamaño más pequeño */
+    height: auto;
+    border-radius: 50%; /* Hacer la imagen circular */
+}
