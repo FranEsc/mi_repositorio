@@ -91,10 +91,15 @@ main {
   max-width: 40%; /* Ajustar el tamaño de la imagen */
   border-radius: 8px; /* Agregar bordes redondeados a la imagen */
 }
-
+.h2 {
+  flex: 1;
+  padding: 0 2rem;
+}
 /* Estilos para la tienda */
 .tienda h2 {
   margin-bottom: 20px;
+  flex: 1;
+  text-align: center;
 }
 
 .card {

@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <title>Oversize Clothes</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tienda online de remeras oversize: descubre nuestra colección de ropa cómoda con estilo. Envíos a todo el país.">
+        <title>Ropa Oversize - Oversize Clothes</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/estilo.css">
+    </head>
 <body>
     <header> 
-        <div> <img src="../img/OVER UNIVERSITY ROSA FUARK.jpg" alt="Logo Oversize"></div>
-        <h1>Oversize Clothes</h1>
-        <h2>Ropa comoda con estilo</h2>
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Nosotros.html">Nosotros</a></li>
-                <li><a href="./Producto.html">Prodcutos</a></li>
-                <li><a href="./Contacto.html">Contactos</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="../img/OVER UNIVERSITY ROSA FUARK.jpg" alt="Logo Oversize" class="logo">
+            <h1>Oversize Clothes</h1>
+            <h2>Ropa cómoda con estilo</h2>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./Nosotros.html">Nosotros</a></li>
+                    <li><a href="./Producto.html">Productos</a></li>
+                    <li><a href="./Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <h2>Prodcutos</h2>
-
-        <section> <img src="../img/dsc071531-97136dbd0146aefeb216602366140069-640-0.jpg" alt="remera oversize"></section>
-        <section> <img src="../img/dsc071531-97136dbd0146aefeb216602366140069-640-0.jpg" alt="remera oversize"></section>
-        <section> <img src="../img/dsc071531-97136dbd0146aefeb216602366140069-640-0.jpg" alt="remera oversize"></section>
-        <section> <img src="../img/dsc071531-97136dbd0146aefeb216602366140069-640-0.jpg" alt="remera oversize"></section>
+        <section class="container tienda">
+            <h2>Nuestros modelos de remeras</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="../img/remera1.jpg" class="card-img-top" alt="Remera oversize">
+                        <div class="card-body">
+                            <h5 class="card-title">Remera Oversize</h5>
+                            <p class="card-text">$8500</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="../img/remera2.jpg" class="card-img-top" alt="Remera estampada">
+                        <div class="card-body">
+                            <h5 class="card-title">Remera Estampada</h5>
+                            <p class="card-text">$7500</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="../img/remera3.jpg" class="card-img-top" alt="Remera larga">
+                        <div class="card-body">
+                            <h5 class="card-title">Remera Larga</h5>
+                            <p class="card-text">$7000</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+           
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     </main>
 
